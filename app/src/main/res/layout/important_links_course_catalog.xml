@@ -4,19 +4,17 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <ProgressBar
-        style="?android:attr/progressBarStyle"
-        android:id="@+id/progressBarCatalog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        />
-
     <WebView
         android:id="@+id/catalogWebView"
         android:text="important_links_course_catalog.xml's webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:id="@+id/progressBarCatalog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
 
 </LinearLayout>
