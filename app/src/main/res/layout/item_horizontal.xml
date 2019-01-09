@@ -25,7 +25,8 @@
             android:layout_height="35dp"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:tint="@color/concordiaPurple"/>
+            android:tint="@color/concordiaPurple"
+            android:contentDescription="Click this arrow to see the previous day's menu" />
         <LinearLayout
             android:id="@+id/trans2_layout"
             android:layout_width="wrap_content"
@@ -64,7 +65,9 @@
             android:layout_height="35dp"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:tint="@color/concordiaPurple"/>
+            android:tint="@color/concordiaPurple"
+            android:contentDescription="Click this arrow to see the next day's menu"
+        />
     </LinearLayout>
 
     <LinearLayout
