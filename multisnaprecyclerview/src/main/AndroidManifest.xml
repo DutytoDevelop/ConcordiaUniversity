@@ -1,2 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.takusemba.multisnaprecyclerview" />
+    package="com.takusemba.multisnaprecyclerview"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+/>
