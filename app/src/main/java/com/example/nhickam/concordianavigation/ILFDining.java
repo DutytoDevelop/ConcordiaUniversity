@@ -203,12 +203,12 @@ public class ILFDining extends Fragment {
         if(id == R.id.actionbar_info){
             AlertDialog alertDialog = new AlertDialog.Builder(getContext()).create();
             alertDialog.setTitle("Cafeteria Hours:");
-            alertDialog.setMessage("Lunch:\nMonday-Friday\n" +
+            alertDialog.setMessage("Lunch:\n\nMonday-Friday\n" +
                     "\n" +
                     "7:00AM - 10:00AM\n" +
                     "10:00AM - 10:30AM\n" +
                     "11:00AM - 1:30PM\n\n" +
-                    "\nDinner:\nMonday-Thursday\n" +
+                    "\nDinner:\n\nMonday-Thursday\n" +
                     "\n" +
                     "4:30PM - 7:00PM\n\n" +
                     "Friday\n" +
