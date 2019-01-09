@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Concordia University</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="events">Events</string>
+    <string name="blackboard">BlackBoard</string>
+    <string name="myinfo">MyInfo</string>
+    <string name="map">Map</string>
+    <string name="tutor_list">Tutor List</string>
+    <string name="dates">Dates/Times</string>
+    <string name="dining">Dining Hall</string>
+    <string name="catalog">Catalog</string>
+    <string name="athletics">Athletics</string>
+    <string name="subscribed">Enabled</string>
+    <string name="unsubscribed">Disabled</string>
+    <string name="concordia_logo_description">Concordia University Logo</string>
+    <string name="dinner_header_text">Dinner:</string>
+    <string name="lunch_header_text">Lunch:</string>
+    <string name="lunch_text">No Information Available</string>
+    <string name="dinner_text">No Information Available</string>
+    <string name="concordia_loading_icon">Concordia Loading Icon</string>
+</resources>

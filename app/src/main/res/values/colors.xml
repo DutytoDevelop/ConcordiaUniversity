@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#53565b</color>
+    <color name="colorAccent">#ffc440</color>
+    <color name="concordiaPurpleLight">#764e95</color>
+    <color name="concordiaPurple">#613688</color>
+    <color name="concordiaBGLight">#ffffff</color>
+    <color name="concordiaLightBG">#e2daee</color>
+    <color name="concordiaYellow">#ffd24f</color>
+    <color name="textColor">#000</color>
+    <color name="color">#ffd24f</color>
+
+</resources>

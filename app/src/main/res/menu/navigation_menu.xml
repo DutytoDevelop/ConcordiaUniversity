@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      >
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+
+        <item android:id="@+id/concordia_home"
+              android:icon="@drawable/ic_home_white_24dp"
+              android:title="@string/home"/>
+
+        <item android:id="@+id/nav_blackboard"
+              android:icon="@drawable/bb_logo"
+              android:title="@string/blackboard"/>
+
+        <item android:id="@+id/nav_myinfo"
+              android:icon="@drawable/ic_info_outline_white_24dp"
+              android:title="@string/myinfo"/>
+        <item android:id="@+id/nav_events"
+              android:icon="@drawable/ic_event_white_24dp"
+              android:title="@string/events"/>
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item android:id="@+id/nav_tutor_list"
+              android:icon="@drawable/ic_people_white_24dp"
+              android:title="@string/tutor_list"/>
+        <item android:id="@+id/nav_important_dates"
+              android:icon="@drawable/ic_date_range_white_24dp"
+              android:title="@string/dates"/>
+        <item android:id="@+id/nav_course_catalog"
+              android:icon="@drawable/ic_list_white_24dp"
+              android:title="@string/catalog"/>
+        <item android:id="@+id/nav_important_map"
+              android:icon="@drawable/ic_map_white_24dp"
+              android:title="@string/map"/>
+        <item android:id="@+id/nav_dining"
+              android:icon="@drawable/ic_local_dining_white_24dp"
+              android:title="@string/dining"/>
+        <item android:id="@+id/nav_dining2"
+              android:icon="@drawable/ic_local_dining_white_24dp"
+              android:title="@string/dining"/>
+    </group>
+    <group android:id="@+id/grp3" android:checkableBehavior="single">
+        <item android:id="@+id/nav_athletics"
+              android:icon="@drawable/ic_sport_white"
+              android:title="@string/athletics"/>
+    </group>
+    <group android:id="@+id/grp4" android:checkableBehavior="single">
+        <item android:id="@+id/nav_settings"
+                  android:icon="@drawable/ic_settings_white_24dp"
+                  android:title="@string/settings"/>
+    </group>
+</menu>

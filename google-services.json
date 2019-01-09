@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "1022940169969",
+    "firebase_url": "https://formidable-deck-133605.firebaseio.com",
+    "project_id": "formidable-deck-133605"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022940169969:android:6dc08ab8108f03a5",
+        "android_client_info": {
+          "package_name": "com.example.nhickam.criminalintent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022940169969-15eebbba5ose8kf9g2etsmvnl6odtbuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgVXKvinPSEp90dx7IWD82BqUCNwkzwRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022940169969:android:40fbc4385642da7a",
+        "android_client_info": {
+          "package_name": "com.example.nhickam.concordianavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022940169969-15eebbba5ose8kf9g2etsmvnl6odtbuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgVXKvinPSEp90dx7IWD82BqUCNwkzwRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
