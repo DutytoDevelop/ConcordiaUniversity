@@ -14,7 +14,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/concordiaBGLight</item>
         <item name="android:textColor">@color/concordiaPurple</item>
-        <item name="android:textSize">22dp</item>
+        <item name="android:textSize">22sp</item>
         <item name="android:fontFamily">@fonts/helvetica-neue-bold</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_centerHorizontal">true</item>
@@ -31,7 +31,7 @@
 
     <style name="myDrawerTheme">
         <item name="listPreferredItemHeightSmall">38dp</item>
-        <item name="android:textSize">16dp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:padding">3dp</item>
         <!--item name="android:textStyle">bold</item-->
     </style>
