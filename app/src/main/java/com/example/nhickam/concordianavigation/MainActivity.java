@@ -237,11 +237,11 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction().replace(R.id.flContent,mILFDining).addToBackStack(null).commit();
                     getSupportActionBar().setTitle(getResources().getString(R.string.dining));
                     break;
-                case R.id.nav_dining2:
+                /*DINING HALL PROTOTYPE case R.id.nav_dining2:
                     ILFDining_2 mILFDining_2 = new ILFDining_2();
                     getSupportFragmentManager().beginTransaction().replace(R.id.flContent,mILFDining_2).addToBackStack(null).commit();
                     getSupportActionBar().setTitle(getResources().getString(R.string.dining));
-                    break;
+                    break;*/
                 case R.id.nav_athletics:
                     AthleticsFrag mAthleticsFrag= new AthleticsFrag();
                     getSupportFragmentManager().beginTransaction().replace(R.id.flContent,mAthleticsFrag).addToBackStack(null).commit();

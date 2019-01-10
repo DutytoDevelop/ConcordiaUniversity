@@ -103,6 +103,6 @@ public class ILFCatalog extends Fragment {
         });
 
         browser.setWebViewClient(new WebViewClient());
-        browser.loadUrl("http://www.concordia.edu/resources/office-of-student-registration-and-records/schedules-calendars-and-catalog.html");
+        browser.loadUrl("https://www.concordia.edu/resources/office-of-student-registration-and-records/schedules-calendars-and-catalog.html");
     }
 }

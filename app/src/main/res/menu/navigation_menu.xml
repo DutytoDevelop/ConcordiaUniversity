@@ -35,9 +35,9 @@
         <item android:id="@+id/nav_dining"
               android:icon="@drawable/ic_local_dining_white_24dp"
               android:title="@string/dining"/>
-        <item android:id="@+id/nav_dining2"
+        <!--DINING HALL PROTOTYPE<item android:id="@+id/nav_dining2"
               android:icon="@drawable/ic_local_dining_white_24dp"
-              android:title="@string/dining"/>
+              android:title="@string/dining"/>-->
     </group>
     <group android:id="@+id/grp3" android:checkableBehavior="single">
         <item android:id="@+id/nav_athletics"

@@ -107,7 +107,7 @@ public class ILFDates extends Fragment {
         });
 
         browser.setWebViewClient(new WebViewClient());
-        browser.loadUrl("https://docs.google.com/viewerng/viewer?url=http://www.concordia.edu/sitefiles/w3/registrar/17-18_academiccalendar_final.pdf");
+        browser.loadUrl("https://www.concordia.edu/sitefiles/w3/registrar/1819Cal.pdf");
 
 
     }

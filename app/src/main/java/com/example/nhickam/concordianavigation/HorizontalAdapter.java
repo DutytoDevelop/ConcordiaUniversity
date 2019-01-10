@@ -46,7 +46,7 @@ public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.Vi
         holder.day.setText(day);
 
 
-        holder.theAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,lunchContent2[position]);
+        //ERROR: holder.theAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,lunchContent2[position]);
         holder.lunchArr.setAdapter(holder.theAdapter);
 
       //String lunch = lunchContent[position];

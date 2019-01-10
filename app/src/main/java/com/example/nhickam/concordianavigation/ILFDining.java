@@ -73,18 +73,15 @@ public class ILFDining extends Fragment {
                 String raw="";
                 Document doc;
                 try {
-                    doc = Jsoup.connect("https://ctxdining.sodexomyway.net/dining-choices/index.html").get();
+                    doc = Jsoup.connect("https://menus.sodexomyway.com/BiteMenu/Menu?menuId=15254&locationId=11268001&whereami=http://ctxdining.sodexomyway.com/dining-near-me/dining-hall").get();
                     raw = doc.body().toString();
                     html = raw;
                     int startpos = 0;
                     int endpos = 0;
-                    if (html.indexOf("/images/", html.indexOf(">On the Menu<"))!=-1){
-                        startpos = html.indexOf(">On the Menu<");
-                        startpos = html.indexOf("/images/", startpos);
-                        endpos = html.indexOf(".htm", startpos) + 4;
-                        url = "https://ctxdining.sodexomyway.net"+html.substring(startpos,endpos);
+                    if (html.indexOf("11268001 CONCORDIA UNIVERSITY TEXAS  01")!=-1){
+                        url = "https://menus.sodexomyway.com/BiteMenu/Menu?menuId=15254&locationId=11268001&whereami=http://ctxdining.sodexomyway.com/dining-near-me/dining-hall";
                     }else{
-                        url = "https://m-ctxdining.sodexomyway.net/dining-choices/index.html";
+                        url = "https://ctxdining.sodexomyway.com/dining-near-me/dining-hall";
                     }
 
                 } catch (IOException e) {
