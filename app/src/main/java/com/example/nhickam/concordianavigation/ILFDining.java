@@ -1,21 +1,29 @@
 package com.example.nhickam.concordianavigation;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -49,11 +57,15 @@ public class ILFDining extends Fragment {
     }
 
     @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        setHasOptionsMenu(true);
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.important_links_dining,container,false);
     }
-
-
 
     //On view created, display dining menu webview
     @Override
@@ -179,4 +191,46 @@ public class ILFDining extends Fragment {
         });*/
     }
 
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.actionbar_settings_button, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if(id == R.id.actionbar_info){
+            AlertDialog alertDialog = new AlertDialog.Builder(getContext()).create();
+            alertDialog.setTitle("Cafeteria Hours:");
+            alertDialog.setMessage("Lunch:\nMonday-Friday\n" +
+                    "\n" +
+                    "7:00AM - 10:00AM\n" +
+                    "10:00AM - 10:30AM\n" +
+                    "11:00AM - 1:30PM\n\n" +
+                    "\nDinner:\nMonday-Thursday\n" +
+                    "\n" +
+                    "4:30PM - 7:00PM\n\n" +
+                    "Friday\n" +
+                    "\n" +
+                    "4:30PM - 6:00PM\n\n" +
+                    "Saturday-Sunday\n" +
+                    "\n" +
+                    "11:00AM - 2:00PM\n" +
+                    "3:00PM - 6:00PM");
+            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+            alertDialog.show();
+            final Button positiveButton = alertDialog.getButton(AlertDialog.BUTTON_POSITIVE);
+            LinearLayout.LayoutParams positiveButtonLL = (LinearLayout.LayoutParams) positiveButton.getLayoutParams();
+            positiveButtonLL.gravity = Gravity.CENTER;
+            positiveButton.setLayoutParams(positiveButtonLL);
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }
