@@ -30,14 +30,13 @@ public class AthleticsFrag extends android.support.v4.app.Fragment {
     ProgressBar progressBar;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_athletics, container, false);
     }
 
-        @Override
+    //Set up fragment_athletics.xml's Webview to load Concordia's athletics webpage
+    @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        //Set up activity_blackboard's Webview to load BB
         browser = view.findViewById(R.id.webViewAthletics);
         progressBar = view.findViewById(R.id.progressBarAthletics);
         browser.setWebChromeClient(new WebChromeClient() {
@@ -100,6 +99,6 @@ public class AthleticsFrag extends android.support.v4.app.Fragment {
         });
 
         browser.setWebViewClient(new WebViewClient());
-        browser.loadUrl("http://athletics.concordia.edu/");
+        browser.loadUrl("https://athletics.concordia.edu/");
     }
 }
