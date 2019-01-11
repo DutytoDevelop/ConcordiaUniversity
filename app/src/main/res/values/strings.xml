@@ -21,4 +21,7 @@
     <string name="lunch_text">No Information Available</string>
     <string name="dinner_text">No Information Available</string>
     <string name="concordia_loading_icon">Concordia Loading Icon</string>
+    <string name="concordia_map">Map of Concordia University</string>
+    <string name="tutor_webview">important_links_tutors.xml\'s webview</string>
+    <string name="catalog_webview">important_links_course_catalog.xml\'s webview</string>
 </resources>
