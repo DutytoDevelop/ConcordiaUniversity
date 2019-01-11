@@ -89,9 +89,9 @@ public class SettingsFrag extends Fragment {
         if(id == R.id.actionbar_info){
             AlertDialog alertDialog = new AlertDialog.Builder(getContext()).create();
             alertDialog.setTitle("App Details:");
-            String setting_details = "";
+            String setting_details = ""; //Get version number of app and display it in setting_details
             String year = "2019";
-            setting_details = "Copyright © "+year+" Concordia University. All Rights Reserved.";
+            setting_details = "Copyright © "+year+" Concordia University Texas. All Rights Reserved.";
             alertDialog.setMessage(setting_details);
             alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                     new DialogInterface.OnClickListener() {
